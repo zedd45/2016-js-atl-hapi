@@ -4,6 +4,7 @@
   "description": "Lightning Talk for JS Atlanta - Hapi JS and Services",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/lab -L -d",
     "start": "NODE_ENV=production node lib/server.js",
     "start:dev": "./node_modules/.bin/nodemon lib/server.js",
     "test": "./node_modules/.bin/lab"
