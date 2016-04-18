@@ -1,0 +1,45 @@
+{
+  "name": "2016-js-atl-hapi",
+  "version": "1.0.0",
+  "description": "Lightning Talk for JS Atlanta - Hapi JS and Services",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node lib/server.js",
+    "start:dev": "./node_modules/.bin/nodemon lib/server.js",
+    "test": "./node_modules/.bin/lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedd45/2016-js-atl-hapi.git"
+  },
+  "keywords": [],
+  "author": "Chris Keen <christopher.keen@gmail.com> (http://keenwebconcepts.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zedd45/2016-js-atl-hapi/issues"
+  },
+  "homepage": "https://github.com/zedd45/2016-js-atl-hapi#readme",
+  "engines": {
+    "node": ">=4.0",
+    "npm": ">=2.0"
+  },
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "config": "^1.20.1",
+    "glue": "^3.2.0",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "good-file": "^5.1.2",
+    "h2o2": "^5.1.0",
+    "hapi": "^13.3.0",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "wreck": "^7.2.0"
+  },
+  "devDependencies": {
+    "code": "^2.2.0",
+    "lab": "^10.3.1",
+    "nodemon": "^1.9.1",
+    "purdy": "^1.6.0"
+  }
+}

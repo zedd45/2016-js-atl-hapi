@@ -1,0 +1,60 @@
+{
+  "connections": [
+    {
+      "port": 3000,
+      "routes": {
+        "timeout": {
+          "server": 10000
+        }
+      }
+    }
+  ],
+  "registrations": [
+    {
+      "plugin": {
+        "register": "good",
+        "options": {
+          "opsInterval": 5000,
+          "requestHeaders": true,
+          "reporters": [
+            {
+              "reporter": "good-console",
+              "events": {
+                "error": "*",
+                "log": "*",
+                "request": "*",
+                "response": "*",
+                "wreck": "*"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plugin": "blipp"
+    },
+    {
+      "plugin": "h2o2"
+    },
+    {
+      "plugin": "inert"
+    },
+    {
+      "plugin": {
+        "register": "./json-fixtures",
+        "options": {
+          "timeout": 5000
+        }
+      }
+    },
+    {
+      "plugin": {
+        "register": "./static",
+        "options": {
+          "publicPath": "./dist"
+        }
+      }
+    }
+  ]
+}
