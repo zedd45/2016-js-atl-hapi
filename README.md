@@ -55,3 +55,9 @@ These guys wrote the book (literally).  Some of my colleagues from Walmart show 
 ## Resources
 
 Speaking of that book, there are links on the [resources](http://hapijs.com/resources) page of Hapijs.com that include working [boilerplates](http://hapijs.com/resources#Boilerplates) and [tutorials](http://hapijs.com/resources#Tutorials) to help you get started quickly!  
+
+## Twitter
+
+Here's a twiter "moment" from the actual event!
+
+https://twitter.com/i/moments/859819667661230080
